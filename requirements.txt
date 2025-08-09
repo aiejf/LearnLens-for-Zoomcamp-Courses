@@ -4,3 +4,7 @@ pytube
 youtube-transcript-api
 google-api-python-client
 python-dotenv
+langchain 
+chromadb 
+sentence-transformers
+langchain-community
