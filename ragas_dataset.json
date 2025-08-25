@@ -1,0 +1,902 @@
+[
+  {
+    "question": "What API is used to send the prompt?",
+    "answer": "The chat completions API.",
+    "contexts": [
+      "we simply send the prompt using the chat completions API. And uh this is our rack function. So first before we use the rack function, let me actually put it separately. We will use it later. Right now what I want to use is simply invoke the llm lm prompt and print answer. So this is our rack. We just implemented it um in a couple of minutes. This is"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 732.399
+  },
+  {
+    "question": "Can I still join the course after the start date?",
+    "answer": "Yes.",
+    "contexts": [
+      "question answer uh documents. So we have a question. Can I still join the course after the start date? And the answer is yes. Even if you don't register, you're still eligible to submit the homeworks etc. We have seen this example many times. So we have many documents like that. Um and what we want to do is use uh index these documents, put them in a um searchable datab database and uh retrieve this information when we"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 446.4
+  },
+  {
+    "question": "What happens if the system does not need the FAQ?",
+    "answer": "It just gives the answer.",
+    "contexts": [
+      "Uh could be I don't know let's just use Q could be any question. So what we want our system to do is make a decision um if it needs to actually query our do we need FAQ. So our system needs to decide if it needs FAQ then it follows this route this way. If it doesn't need FAQ then it just answers gives the answer"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1042.799
+  },
+  {
+    "question": "What module are they starting after finishing week two?",
+    "answer": "They are starting module two.",
+    "contexts": [
+      "style life uh workshop kind of live right so we will have this module for me it's a little lower effort to record this. So next year we are probably going to re-record it anyways and for you I hope it will be quite useful. So the content for this uh workshop/module is already in zero a agents. So um we're here now we just finished week two uh module two sorry and we are starting"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 63.6
+  },
+  {
+    "question": "What is the purpose of the context in the answer process?",
+    "answer": "The context provides the source for the answer.",
+    "contexts": [
+      "template and we say here put your answer and then say okay the answer the source for this answer is context. But if there's nothing in the context you can use your own own knowledge to answer this question. So we are at a state let me show you. So here so we ask a question and then we look up something up in the knowledge database but the documents we get back they don't contain the answer then we can empower we can let the LLM actually answer uh this"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1387.6
+  },
+  {
+    "question": "What does MCP stand for?",
+    "answer": "MCP stands for model context protocol.",
+    "contexts": [
+      "do our rock. And I see a question if rack is somehow similar to MCP. These are the very different things. Um u so rack is what I explained now. We will talk about MCP later towards the end of this video. So MCP stands for model context protocol and rack stands for um retrieval augmented generation. If you want to learn more about rack, I suggest you check module number one. There you will see a more detailed explanation of"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 478.319
+  },
+  {
+    "question": "What is the first step in the process described in the video?",
+    "answer": "We have a query from a user and we perform search.",
+    "contexts": [
+      "function. Right? So we have a query from a user and we perform search and then we build a prompt. In this prompt we uh get all the context we need uh to be included in the prompt otherwise without this context we will not be able to answer. Um and last thing is actually the the prompt we built we sent to NLM. So we have seen this and this is very simple basic implementation of rack with three parts"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 377.68
+  },
+  {
+    "question": "What is the title of the YouTube video?",
+    "answer": "How to Build Agentic RAG Pipelines with OpenAI Function Calling? - LLM Zoomcamp Bonus Module",
+    "contexts": [
+      "module 3. We still need to finish a few things for this module module modules and I didn't want to change like the numbers um so if agents become three then it becomes four so it's a lot of changes so I just called it zero agents so this we can treat it as a bonus model so all the materials for this module will be here and right now there's nothing but what we will do in this bonus module is we"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 94.799
+  },
+  {
+    "question": "What does RAG stand for?",
+    "answer": "RAG stands for retrieval augmented generation.",
+    "contexts": [
+      "do our rock. And I see a question if rack is somehow similar to MCP. These are the very different things. Um u so rack is what I explained now. We will talk about MCP later towards the end of this video. So MCP stands for model context protocol and rack stands for um retrieval augmented generation. If you want to learn more about rack, I suggest you check module number one. There you will see a more detailed explanation of"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 478.319
+  },
+  {
+    "question": "Is the content presented in the module provider agnostic?",
+    "answer": "Yes, it will work across any platforms.",
+    "contexts": [
+      "tested it. So if you test it uh and it worked or it didn't work, let us know in Slack uh what was your experience. But here I'm going to use OpenAI API for that. Um so and the function calling part is what might not work with other LM providers but the rest of the uh module the rest of the content I present here is going to be uh provider agnostic. So it it will work across on any platforms"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 188.56
+  },
+  {
+    "question": "What part might not work with other LM providers?",
+    "answer": "The function calling part.",
+    "contexts": [
+      "tested it. So if you test it uh and it worked or it didn't work, let us know in Slack uh what was your experience. But here I'm going to use OpenAI API for that. Um so and the function calling part is what might not work with other LM providers but the rest of the uh module the rest of the content I present here is going to be uh provider agnostic. So it it will work across on any platforms"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 188.56
+  },
+  {
+    "question": "Can I join the course?",
+    "answer": "The transcript does not provide a direct answer to this question.",
+    "contexts": [
+      "A user has a question. So this a question uh can I join the course? Right? So in the case of rack what we do is we go to our knowledge database. Um I'm not really good at drawing these things. So we go to our knowledge database. I'll"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 916.56
+  },
+  {
+    "question": "What do we do in the case of RAG?",
+    "answer": "We go to our knowledge database.",
+    "contexts": [
+      "A user has a question. So this a question uh can I join the course? Right? So in the case of rack what we do is we go to our knowledge database. Um I'm not really good at drawing these things. So we go to our knowledge database. I'll"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 916.56
+  },
+  {
+    "question": "Is the question about patching U KD relevant to the course?",
+    "answer": "No, it is not relevant to the courses.",
+    "contexts": [
+      "immediately right in case how do I patch U KD after under FreeBSD it's not relevant to the courses I guess but like in this case if this knows how to answer this question directly without um involving uh a knowledge database then it just does that otherwise uh it does is it does the retrieval, it builds the prompt, it calls NLM and then gives back the final result. So this is"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1073.919
+  },
+  {
+    "question": "Can the assistant answer questions not in its database?",
+    "answer": "No, the assistant cannot do this.",
+    "contexts": [
+      "do I patch uh what under freebsd? I mean we don't cover this. So it's a little off topic. Um but in this case if somebody had a question like that our assistant if we want our assistant to be able to answer questions like that questions that are not in our database um our assistant cannot do this. But if we just ask an LLM, if I send the same thing to an LLM,"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 824.24
+  },
+  {
+    "question": "What is referred to as a bonus module?",
+    "answer": "The module called zero agents.",
+    "contexts": [
+      "module 3. We still need to finish a few things for this module module modules and I didn't want to change like the numbers um so if agents become three then it becomes four so it's a lot of changes so I just called it zero agents so this we can treat it as a bonus model so all the materials for this module will be here and right now there's nothing but what we will do in this bonus module is we"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 94.799
+  },
+  {
+    "question": "What is the title of the section being implemented?",
+    "answer": "The section is called 'aentic rack'.",
+    "contexts": [
+      "the answer right. So we can let it decide if it wants to if it wants to give an answer immediately or if it needs to look up the database. So now let's implement this. Uh I'll call this section aentic rack. So um this is what we are going to do. So our prompt becomes a little more complicated. So let's walk through through this prompt. So I took u I don't know maybe"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1293.039
+  },
+  {
+    "question": "What is the title of the YouTube video?",
+    "answer": "How to Build Agentic RAG Pipelines with OpenAI Function Calling? - LLM Zoomcamp Bonus Module",
+    "contexts": [
+      "explain how these things work under the hood so you will be able to use any framework okay so let's start and uh first I want to show you uh not this one the links so David I don't know what's happening Anyways, um so the links that are important here, we have this workshop repo and course repo. So this is what we're going to follow along. Yes, go to site. So I already have it. So in this"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 250.799
+  },
+  {
+    "question": "How many documents are mentioned as being retrieved?",
+    "answer": "Five documents.",
+    "contexts": [
+      "call it keyb knowledge database or FAQ right in our case FAQ. And then we get back some documents, right? So we get back uh uh I don't know like five documents, right? So it's document one, document five, right? And what we do is we put these documents uh it's actually we don't show them to the user we rather um put them to a prompt. So we have a"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 947.36
+  },
+  {
+    "question": "What does the course show regarding the classical rack?",
+    "answer": "It shows the process of sending a query to an LM.",
+    "contexts": [
+      "um the last step is actually sending this to an LM and the LLM is giving back the final result to the user. So this is our classical rack, right? So this is what we do. Uh this is what we show in the course, right? But what if uh the answer the question is um something that our knowledge base does not contain?"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1011.279
+  },
+  {
+    "question": "What learning method is mentioned for the agents?",
+    "answer": "Reinforcement learning.",
+    "contexts": [
+      "want to build a robot that can navigate I don't know Mars environment, right? So then um the robot um this is not something we use LMS for. This is just general um a AI agents. So they use reinforce reinforcement learning for the agents to learn what kind of actions it perform and uh it uses some knowledge uh of what has happened uh to make the best"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1200.559
+  },
+  {
+    "question": "What do we do with the prompt we built?",
+    "answer": "We send it to NLM.",
+    "contexts": [
+      "function. Right? So we have a query from a user and we perform search and then we build a prompt. In this prompt we uh get all the context we need uh to be included in the prompt otherwise without this context we will not be able to answer. Um and last thing is actually the the prompt we built we sent to NLM. So we have seen this and this is very simple basic implementation of rack with three parts"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 377.68
+  },
+  {
+    "question": "Are participants eligible to submit homework if they don't register?",
+    "answer": "Yes.",
+    "contexts": [
+      "question answer uh documents. So we have a question. Can I still join the course after the start date? And the answer is yes. Even if you don't register, you're still eligible to submit the homeworks etc. We have seen this example many times. So we have many documents like that. Um and what we want to do is use uh index these documents, put them in a um searchable datab database and uh retrieve this information when we"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 446.4
+  },
+  {
+    "question": "What does the speaker want to show at the beginning of the video?",
+    "answer": "The important links related to the workshop and course repo.",
+    "contexts": [
+      "explain how these things work under the hood so you will be able to use any framework okay so let's start and uh first I want to show you uh not this one the links so David I don't know what's happening Anyways, um so the links that are important here, we have this workshop repo and course repo. So this is what we're going to follow along. Yes, go to site. So I already have it. So in this"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 250.799
+  },
+  {
+    "question": "What is the role of the LLM in the prompt?",
+    "answer": "The LLM is a course teaching assistant that answers a student's question using its own knowledge and provides context.",
+    "contexts": [
+      "15 20 minutes to build this prompt. Uh but the idea I explained to you the idea. So now we want the LLM to make a decision. And uh it starts like the previous prompt. I say you're a course teaching assistant. You are given a question from a course student that you need to answer with our knowledge with your own knowledge and provide the context. So here I say that you can use your own knowledge. So here we put the question, we put the context. This is same as before, but I"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1324.24
+  },
+  {
+    "question": "What is included in the prompt for the LLM?",
+    "answer": "The prompt includes a question and context.",
+    "contexts": [
+      "15 20 minutes to build this prompt. Uh but the idea I explained to you the idea. So now we want the LLM to make a decision. And uh it starts like the previous prompt. I say you're a course teaching assistant. You are given a question from a course student that you need to answer with our knowledge with your own knowledge and provide the context. So here I say that you can use your own knowledge. So here we put the question, we put the context. This is same as before, but I"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1324.24
+  },
+  {
+    "question": "What do the output ids uniquely identify?",
+    "answer": "They uniquely identify documents within the search engine.",
+    "contexts": [
+      "And then it gives us three documents. One thing that is new is we have this new um parameter for the search function output ids and here we have ids that uniquely identify these documents within our search engine right we will uh later use them right now it's not important but for you just to know that we have this thing too okay so this is how we do the search then the next step in our rack is uh Here we have three steps."
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 572.399
+  },
+  {
+    "question": "What approach does the speaker suggest for the module?",
+    "answer": "To make it lightweight and conduct it live like a workshop.",
+    "contexts": [
+      "that agents are still actively evolving. Uh so it doesn't make sense to invest a lot of time into creating content which will become obsolete in one year. uh but I already had some materials and I thought how about making this module lightweight so I don't put too much effort but at the same time share with you what I already know what the content I already have and we do it not by creating a module like we typically do uh but we do a it live like workshop"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 30.48
+  },
+  {
+    "question": "What is the difference between appendable index and index?",
+    "answer": "Appendable index allows adding documents after the first iteration.",
+    "contexts": [
+      "all these three steps in the rack function. Right? Um so and then let's implement the step number one which is search. So we use uh mean search the mean search library. The difference between uh this so in the previous videos we used index and now we use appendable index. So appendable index is the same as index except we can add documents to this index. uh after we did the first iteration. So if we do search"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 509.36
+  },
+  {
+    "question": "What is the focus of the discussed system?",
+    "answer": "The system is designed to make decisions without needing an FAQ.",
+    "contexts": [
+      "path number one. So this is no, we don't need FAQ and if we need an FAQ, then this is the path we follow, right? So we want our system to make this decision and if we do this, it becomes a gentic rack. So not just simple rack but agentic rack. And let's talk a little about agents. So agents are things that interact with"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1107.039
+  },
+  {
+    "question": "What does the speaker want to illustrate?",
+    "answer": "The speaker wants to illustrate the concept of agentic RAG.",
+    "contexts": [
+      "agentic rack comes into place. So in this case we can let our system our assistant decide if it can answer the question uh itself without using any external knowledge base or it needs to look up the knowledge base. I want to quickly illustrate this cuz I think it's a little abstract what I say. So let me just um do that. So let's start with a typical rack. So we have our user."
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 886.48
+  },
+  {
+    "question": "What do we need to include in the prompt to answer the query?",
+    "answer": "All the context we need.",
+    "contexts": [
+      "function. Right? So we have a query from a user and we perform search and then we build a prompt. In this prompt we uh get all the context we need uh to be included in the prompt otherwise without this context we will not be able to answer. Um and last thing is actually the the prompt we built we sent to NLM. So we have seen this and this is very simple basic implementation of rack with three parts"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 377.68
+  },
+  {
+    "question": "What will be discussed regarding RAG in the session?",
+    "answer": "Advantages, disadvantages, and how to make RAG agentic.",
+    "contexts": [
+      "talk about uh advantages and disadvantages also downsides of rack and then how we can make this rack aentic and we will also talk about aentic search and we will also talk about function calling. So for this uh session I use openAI in principle it should work with any other LLM provider. I have not tested it with other LM LM providers but it should work with entropic. It should work with Gemini. It should also work with Grock. It should but I have not"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 156.4
+  },
+  {
+    "question": "What must we do when answering questions from users?",
+    "answer": "We must answer only using the context.",
+    "contexts": [
+      "There are some um limitations or um how to say sak is very good for cases when we have the knowledge base and we cannot use anything else. So we always must answer the question from the student from the course participant or whoever from the user only using the context. But sometimes there are some things. So for example let me try this question. Um what if our student has a question? How"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 793.6
+  },
+  {
+    "question": "What type of RAG is mentioned in the transcript?",
+    "answer": "Agentic RAG.",
+    "contexts": [
+      "path number one. So this is no, we don't need FAQ and if we need an FAQ, then this is the path we follow, right? So we want our system to make this decision and if we do this, it becomes a gentic rack. So not just simple rack but agentic rack. And let's talk a little about agents. So agents are things that interact with"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1107.039
+  },
+  {
+    "question": "What format is commonly used in templates now?",
+    "answer": "XML",
+    "contexts": [
+      "the question. One thing that changed since last year when I was recording the previous video was that now it seems everyone is um using XML kind of text in uh the templates which makes it clear for the model that here in this in this example that the context ends right. So here we have the beginning of the context and the end of the context. We have the beginning of the question, the end of the question. So it's more common to see these days this XML"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 636.399
+  },
+  {
+    "question": "What is the relationship between the agent and the environment?",
+    "answer": "The agent exists inside the environment.",
+    "contexts": [
+      "environments. So let's say we have some environment where things can happen and then we have an agent here inside this environment. Let me use a different uh yeah. So this agent and there is some environment. So what agent can do is agent can observe the environment and perform some actions. So for example the environment"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1138.96
+  },
+  {
+    "question": "What does the AI assistant need to decide?",
+    "answer": "It needs to decide if it should look up something in the knowledge base or give the answer directly.",
+    "contexts": [
+      "decision. So agents can make decisions independently and this is the um the relevant part. This is what we care about. So because we want in our case we want our system our AI assistant to make a decision if it needs to look up something in the knowledge base or it can give the answer immediately immediately directly and just by doing this we kind of have an agent. In this case the environment is"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1230.64
+  },
+  {
+    "question": "What is being implemented in the transcript?",
+    "answer": "The rack function.",
+    "contexts": [
+      "we simply send the prompt using the chat completions API. And uh this is our rack function. So first before we use the rack function, let me actually put it separately. We will use it later. Right now what I want to use is simply invoke the llm lm prompt and print answer. So this is our rack. We just implemented it um in a couple of minutes. This is"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 732.399
+  },
+  {
+    "question": "Will any framework be used in the initial implementation?",
+    "answer": "No, it will be implemented without any framework.",
+    "contexts": [
+      "and uh first we are going to implement a small agents our agent ourselves just to understand how they work and then we will use this function calling that I uh talked about. We are not going to use any framework. So we're going to implement it ourselves just using prompts first. uh but then we will use open AI um SDK for the function calling part um but before that what we will learn will be enough to actually"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 218.799
+  },
+  {
+    "question": "What is the first step mentioned for implementation?",
+    "answer": "Installing minarch, a simple in-memory search engine.",
+    "contexts": [
+      "and I'm going to quickly implement this uh for those who don't know rack but we have done this already in the first module. So first I'm going to install minarch which is a simple in-memory search engine. I actually think I already have it. So I will skip this part. But you will if you don't have it, you need to install it. Then the second step I'm going to do is fetching our FAQ documents and doing some preparation. So this is how our documents look like. Let's take a look at the second document. Um so here we have um um"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 411.84
+  },
+  {
+    "question": "What is the first step in building agentic RAG pipelines?",
+    "answer": "Perform search.",
+    "contexts": [
+      "u so rack as we saw consists of parts. So first we perform search and it can and can be any knowledge base we can think of. In our particular case, we used min search which was a simple in-memory implementation of search engine. Then we used text search in elastic and we also used quadrant in module number two. We used vector search from quadrant and we also looked at uh hybrid search with quadrant. Right? So there are many different options we can do search. So this is the first"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 346.24
+  },
+  {
+    "question": "What can be done with the existing prompt?",
+    "answer": "It can be changed to allow looking up things in a knowledge database or providing an answer directly.",
+    "contexts": [
+      "the dialogue and the actions are to perform search or not to perform the search right. Um so it's like the simplest possible agent and this is something we can implement right now and actually to implement this you don't need a lot. We already have this prompt. What we can do is we can change the prompt slightly and we can say if you want you can look up things in our knowledge database but if you can already give the answer then just give"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1261.6
+  },
+  {
+    "question": "What is the purpose of the prompt mentioned in the video?",
+    "answer": "The prompt is sent to an LLM to get an answer to a question using context.",
+    "contexts": [
+      "build prompt question search results print prompt. So this is the prompt we're going to send to an LLM and then the LLM will give us the answer to this question using this context. Should be nothing new to you. So this is a classical example to rock of rock. So this is the function we're going to use. So we use open AI here. We use GPT4 mini model and"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 700.48
+  },
+  {
+    "question": "What is being implemented in the video?",
+    "answer": "Agentic RAG pipelines with OpenAI Function Calling.",
+    "contexts": [
+      "and I'm going to quickly implement this uh for those who don't know rack but we have done this already in the first module. So first I'm going to install minarch which is a simple in-memory search engine. I actually think I already have it. So I will skip this part. But you will if you don't have it, you need to install it. Then the second step I'm going to do is fetching our FAQ documents and doing some preparation. So this is how our documents look like. Let's take a look at the second document. Um so here we have um um"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 411.84
+  },
+  {
+    "question": "What API is being used in the video?",
+    "answer": "OpenAI API",
+    "contexts": [
+      "tested it. So if you test it uh and it worked or it didn't work, let us know in Slack uh what was your experience. But here I'm going to use OpenAI API for that. Um so and the function calling part is what might not work with other LM providers but the rest of the uh module the rest of the content I present here is going to be uh provider agnostic. So it it will work across on any platforms"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 188.56
+  },
+  {
+    "question": "What happens if the answer is not in the knowledge base?",
+    "answer": "The transcript suggests a scenario where the answer is not contained in the knowledge base.",
+    "contexts": [
+      "um the last step is actually sending this to an LM and the LLM is giving back the final result to the user. So this is our classical rack, right? So this is what we do. Uh this is what we show in the course, right? But what if uh the answer the question is um something that our knowledge base does not contain?"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1011.279
+  },
+  {
+    "question": "What can be built using the search question?",
+    "answer": "A prompt.",
+    "contexts": [
+      "uh like markup in the templates. So this is what I'm using here in the template. Uh but otherwise it's the same function from module number one. Right? So this is our template. And now if we um use it question we already know right um search results uh search question and then we can build prompt"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 668.16
+  },
+  {
+    "question": "What does the system decide regarding answering questions?",
+    "answer": "It decides if it can answer the question itself or needs to look up the knowledge base.",
+    "contexts": [
+      "agentic rack comes into place. So in this case we can let our system our assistant decide if it can answer the question uh itself without using any external knowledge base or it needs to look up the knowledge base. I want to quickly illustrate this cuz I think it's a little abstract what I say. So let me just um do that. So let's start with a typical rack. So we have our user."
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 886.48
+  },
+  {
+    "question": "What are the components mentioned in the context?",
+    "answer": "A question and context.",
+    "contexts": [
+      "prompt here prompt um answer the following question using the context. Right? And then we have question here and we have context. And when it comes to the context this is so this is the question this is the context right. So this is what we do. This is creating the prompt. in the second step. Um, all right. And then"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 979.36
+  },
+  {
+    "question": "What can the agent use if the context is empty?",
+    "answer": "The agent can use the FAQ database.",
+    "contexts": [
+      "uh yeah and it should I see a comment. Shouldn't it be you cannot use the FAQ? No, it should actually be you can use our FAQ database if context is empty. It means uh let me show you. So here agent can perform some actions and it has history of past actions. Um so here where wait so here we give it a question and then the history of past questions"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1449.12
+  },
+  {
+    "question": "What new parameter is introduced for the search function?",
+    "answer": "The new parameter is output ids.",
+    "contexts": [
+      "And then it gives us three documents. One thing that is new is we have this new um parameter for the search function output ids and here we have ids that uniquely identify these documents within our search engine right we will uh later use them right now it's not important but for you just to know that we have this thing too okay so this is how we do the search then the next step in our rack is uh Here we have three steps."
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 572.399
+  },
+  {
+    "question": "What can agents perform in a chat application?",
+    "answer": "Agents can perform tasks or actions.",
+    "contexts": [
+      "could be our chat application and the questions from the user and then agent can performs perform tasks or actions. uh agents have actions and then agents also have history of past actions and memory of past actions. So it knows what kind of actions it performed in the past and what was the result of these actions. So this is an agent in the classical sense. So for example, if we"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1169.679
+  },
+  {
+    "question": "What should be done if there is already context available?",
+    "answer": "Use the context to answer the question.",
+    "contexts": [
+      "give extra instructions. I say if context is empty, so if there is nothing in the context, you can use our FAQ database. In this case, if you think that you want to perform search, output this uh thing. So it says perform search and explains we ask it to explain why we think it needs to perform search. But if there is already context uh then and if it can answer the question using the context then use this"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1356.48
+  },
+  {
+    "question": "What happens if the documents from the knowledge database do not contain the answer?",
+    "answer": "The LLM can use its own knowledge to answer the question.",
+    "contexts": [
+      "template and we say here put your answer and then say okay the answer the source for this answer is context. But if there's nothing in the context you can use your own own knowledge to answer this question. So we are at a state let me show you. So here so we ask a question and then we look up something up in the knowledge database but the documents we get back they don't contain the answer then we can empower we can let the LLM actually answer uh this"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1387.6
+  },
+  {
+    "question": "What can agents do independently?",
+    "answer": "Agents can make decisions independently.",
+    "contexts": [
+      "decision. So agents can make decisions independently and this is the um the relevant part. This is what we care about. So because we want in our case we want our system our AI assistant to make a decision if it needs to look up something in the knowledge base or it can give the answer immediately immediately directly and just by doing this we kind of have an agent. In this case the environment is"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1230.64
+  },
+  {
+    "question": "What is the simplest possible agent mentioned in the transcript?",
+    "answer": "It is an agent that decides whether to perform a search or not.",
+    "contexts": [
+      "the dialogue and the actions are to perform search or not to perform the search right. Um so it's like the simplest possible agent and this is something we can implement right now and actually to implement this you don't need a lot. We already have this prompt. What we can do is we can change the prompt slightly and we can say if you want you can look up things in our knowledge database but if you can already give the answer then just give"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1261.6
+  },
+  {
+    "question": "What does the agent have a history of?",
+    "answer": "The agent has a history of past actions.",
+    "contexts": [
+      "uh yeah and it should I see a comment. Shouldn't it be you cannot use the FAQ? No, it should actually be you can use our FAQ database if context is empty. It means uh let me show you. So here agent can perform some actions and it has history of past actions. Um so here where wait so here we give it a question and then the history of past questions"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1449.12
+  },
+  {
+    "question": "What is a limitation mentioned in the transcript?",
+    "answer": "It is good for cases when we have the knowledge base and cannot use anything else.",
+    "contexts": [
+      "There are some um limitations or um how to say sak is very good for cases when we have the knowledge base and we cannot use anything else. So we always must answer the question from the student from the course participant or whoever from the user only using the context. But sometimes there are some things. So for example let me try this question. Um what if our student has a question? How"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 793.6
+  },
+  {
+    "question": "What is the format of the workshop mentioned in the transcript?",
+    "answer": "It is a lower effort live workshop.",
+    "contexts": [
+      "style life uh workshop kind of live right so we will have this module for me it's a little lower effort to record this. So next year we are probably going to re-record it anyways and for you I hope it will be quite useful. So the content for this uh workshop/module is already in zero a agents. So um we're here now we just finished week two uh module two sorry and we are starting"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 63.6
+  },
+  {
+    "question": "What were participants frequently asking about in the Q&A section?",
+    "answer": "They were asking about agents.",
+    "contexts": [
+      "Hi everyone, welcome to our bonus module of LLM Zoom camp. In this bonus module, we are going to talk about agents. When we launched our course this year a couple of uh weeks ago, I think it was one month one month one month ago, everyone everyone was asking like every second person in the Q&A section section was asking, \"Hey, but what about agents? What about agents?\" And uh the answer I gave back then was"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 0.0
+  },
+  {
+    "question": "Why is the speaker hesitant to invest a lot of time into creating content?",
+    "answer": "Because agents are still actively evolving and content may become obsolete in one year.",
+    "contexts": [
+      "that agents are still actively evolving. Uh so it doesn't make sense to invest a lot of time into creating content which will become obsolete in one year. uh but I already had some materials and I thought how about making this module lightweight so I don't put too much effort but at the same time share with you what I already know what the content I already have and we do it not by creating a module like we typically do uh but we do a it live like workshop"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 30.48
+  },
+  {
+    "question": "What is the main focus of the video?",
+    "answer": "Building Agentic RAG Pipelines with OpenAI Function Calling.",
+    "contexts": [
+      "prompt here prompt um answer the following question using the context. Right? And then we have question here and we have context. And when it comes to the context this is so this is the question this is the context right. So this is what we do. This is creating the prompt. in the second step. Um, all right. And then"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 979.36
+  },
+  {
+    "question": "What was covered in module number one?",
+    "answer": "Rack was covered in module number one.",
+    "contexts": [
+      "will explore agentic rack. So we already know what rack is. This is what we covered in module number one. Um I will briefly um talk about this also for those who are joining this uh from YouTube for those who didn't watch the first um module of the course and uh for those who watching recording and who already know what rack is um you feel free to just skip forward. So but it will be a very quick and basic introduction to rack and then we will"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 125.04
+  },
+  {
+    "question": "Can participants follow along with the workshop?",
+    "answer": "Yes, participants can copy paste the same things.",
+    "contexts": [
+      "um in this workshop, what I'm going to do is just copy paste things from here um to the notebook I prepared. So there's an empty notebook. I'm going to copy paste some things from this workshop. You can follow along. uh cuz yeah you can just copy paste the same things and some things I'll do live coding for some things I just copy paste and uh yeah so this is going to be the basis for our workshop today and the"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 283.919
+  },
+  {
+    "question": "Can I join the course after the start date?",
+    "answer": "Yes, you can still join the course after the start date.",
+    "contexts": [
+      "the answer that the LLM gives. Yes, you can still join the course after the start date. Even if you're don't don't register, you're eligible to submit the homework. And then we put everything together. So now we can test other things. How do I install half or how do I run in docker? And then we should get back the results. Right? So this is our rack."
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 763.36
+  },
+  {
+    "question": "What is the topic of the bonus module in LLM Zoom camp?",
+    "answer": "The topic is about agents.",
+    "contexts": [
+      "Hi everyone, welcome to our bonus module of LLM Zoom camp. In this bonus module, we are going to talk about agents. When we launched our course this year a couple of uh weeks ago, I think it was one month one month one month ago, everyone everyone was asking like every second person in the Q&A section section was asking, \"Hey, but what about agents? What about agents?\" And uh the answer I gave back then was"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 0.0
+  },
+  {
+    "question": "What do agents have a history of?",
+    "answer": "Agents have a history of past actions and memory of past actions.",
+    "contexts": [
+      "could be our chat application and the questions from the user and then agent can performs perform tasks or actions. uh agents have actions and then agents also have history of past actions and memory of past actions. So it knows what kind of actions it performed in the past and what was the result of these actions. So this is an agent in the classical sense. So for example, if we"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1169.679
+  },
+  {
+    "question": "Where can you find the agents module?",
+    "answer": "In the course repo linked in the description.",
+    "contexts": [
+      "course content I already showed it's the second link course repo this is where you will find this agents module okay let's get started and first I want to talk about rack so we already know what rack is. For those who watch the first module and for those who did not um I rejat I will not send it you will find them in the description. So you just click here in the description you'll find the links"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 315.199
+  },
+  {
+    "question": "What does the speaker suggest about the agent's decision-making?",
+    "answer": "The agent can decide whether to give an answer immediately or look up the database.",
+    "contexts": [
+      "the answer right. So we can let it decide if it wants to if it wants to give an answer immediately or if it needs to look up the database. So now let's implement this. Uh I'll call this section aentic rack. So um this is what we are going to do. So our prompt becomes a little more complicated. So let's walk through through this prompt. So I took u I don't know maybe"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1293.039
+  },
+  {
+    "question": "What will the video explore?",
+    "answer": "The video will explore agentic rack.",
+    "contexts": [
+      "will explore agentic rack. So we already know what rack is. This is what we covered in module number one. Um I will briefly um talk about this also for those who are joining this uh from YouTube for those who didn't watch the first um module of the course and uh for those who watching recording and who already know what rack is um you feel free to just skip forward. So but it will be a very quick and basic introduction to rack and then we will"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 125.04
+  },
+  {
+    "question": "What should be used if the context is empty?",
+    "answer": "The FAQ database should be used.",
+    "contexts": [
+      "give extra instructions. I say if context is empty, so if there is nothing in the context, you can use our FAQ database. In this case, if you think that you want to perform search, output this uh thing. So it says perform search and explains we ask it to explain why we think it needs to perform search. But if there is already context uh then and if it can answer the question using the context then use this"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1356.48
+  },
+  {
+    "question": "What is the last step mentioned in the process?",
+    "answer": "Sending this to an LM and the LLM gives back the final result to the user.",
+    "contexts": [
+      "um the last step is actually sending this to an LM and the LLM is giving back the final result to the user. So this is our classical rack, right? So this is what we do. Uh this is what we show in the course, right? But what if uh the answer the question is um something that our knowledge base does not contain?"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1011.279
+  },
+  {
+    "question": "What will be implemented first in the video?",
+    "answer": "A small agent to understand how they work.",
+    "contexts": [
+      "and uh first we are going to implement a small agents our agent ourselves just to understand how they work and then we will use this function calling that I uh talked about. We are not going to use any framework. So we're going to implement it ourselves just using prompts first. uh but then we will use open AI um SDK for the function calling part um but before that what we will learn will be enough to actually"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 218.799
+  },
+  {
+    "question": "Which LLM provider is primarily used in the session?",
+    "answer": "OpenAI.",
+    "contexts": [
+      "talk about uh advantages and disadvantages also downsides of rack and then how we can make this rack aentic and we will also talk about aentic search and we will also talk about function calling. So for this uh session I use openAI in principle it should work with any other LLM provider. I have not tested it with other LM LM providers but it should work with entropic. It should work with Gemini. It should also work with Grock. It should but I have not"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 156.4
+  },
+  {
+    "question": "What is the title of the YouTube video?",
+    "answer": "How to Build Agentic RAG Pipelines with OpenAI Function Calling? - LLM Zoomcamp Bonus Module",
+    "contexts": [
+      "course content I already showed it's the second link course repo this is where you will find this agents module okay let's get started and first I want to talk about rack so we already know what rack is. For those who watch the first module and for those who did not um I rejat I will not send it you will find them in the description. So you just click here in the description you'll find the links"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 315.199
+  },
+  {
+    "question": "What is the purpose of the prompt mentioned in the transcript?",
+    "answer": "The prompt is for a course teaching assistant to answer questions based on the FAQ database.",
+    "contexts": [
+      "Search, build, prompt, and lm. So now let's build the prompt. So this is our prompt. Let me just I'll keep the question here. So then I don't need to type it every time. And here is the prompt. So this is the same um function we saw previously in module number one. Um and this is the prompt. your course teaching assistant answer the question based on the context from the FAQ database. Use only the facts from the context when answering"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 605.36
+  },
+  {
+    "question": "What SDK will be used for the function calling part?",
+    "answer": "OpenAI SDK.",
+    "contexts": [
+      "and uh first we are going to implement a small agents our agent ourselves just to understand how they work and then we will use this function calling that I uh talked about. We are not going to use any framework. So we're going to implement it ourselves just using prompts first. uh but then we will use open AI um SDK for the function calling part um but before that what we will learn will be enough to actually"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 218.799
+  },
+  {
+    "question": "What types of search implementations were mentioned?",
+    "answer": "In-memory search, text search in Elastic, vector search from Quadrant, and hybrid search with Quadrant.",
+    "contexts": [
+      "u so rack as we saw consists of parts. So first we perform search and it can and can be any knowledge base we can think of. In our particular case, we used min search which was a simple in-memory implementation of search engine. Then we used text search in elastic and we also used quadrant in module number two. We used vector search from quadrant and we also looked at uh hybrid search with quadrant. Right? So there are many different options we can do search. So this is the first"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 346.24
+  },
+  {
+    "question": "What will the presenter do in the workshop?",
+    "answer": "The presenter will copy paste things from the workshop to a prepared notebook.",
+    "contexts": [
+      "um in this workshop, what I'm going to do is just copy paste things from here um to the notebook I prepared. So there's an empty notebook. I'm going to copy paste some things from this workshop. You can follow along. uh cuz yeah you can just copy paste the same things and some things I'll do live coding for some things I just copy paste and uh yeah so this is going to be the basis for our workshop today and the"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 283.919
+  },
+  {
+    "question": "What does the system do if it cannot answer a question directly?",
+    "answer": "It does the retrieval, builds the prompt, calls NLM, and then gives back the final result.",
+    "contexts": [
+      "immediately right in case how do I patch U KD after under FreeBSD it's not relevant to the courses I guess but like in this case if this knows how to answer this question directly without um involving uh a knowledge database then it just does that otherwise uh it does is it does the retrieval, it builds the prompt, it calls NLM and then gives back the final result. So this is"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1073.919
+  },
+  {
+    "question": "Can the prompt be tweaked according to application requirements?",
+    "answer": "Yes, the prompt can be adjusted based on the requirements.",
+    "contexts": [
+      "question try its best to actually answer this question even if context is not relevant of course it depends on our um application so we can tweak the prompt according to the requirements we have but In this case uh we in this case I use the prompt that if there is nothing in the context that you can use to answer this question still try your best to answer it. Um"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1417.76
+  },
+  {
+    "question": "What should the model do if there is no relevant context to answer a question?",
+    "answer": "It should still try its best to answer the question.",
+    "contexts": [
+      "question try its best to actually answer this question even if context is not relevant of course it depends on our um application so we can tweak the prompt according to the requirements we have but In this case uh we in this case I use the prompt that if there is nothing in the context that you can use to answer this question still try your best to answer it. Um"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1417.76
+  },
+  {
+    "question": "What decision does the system need to make?",
+    "answer": "Whether it needs to query the FAQ.",
+    "contexts": [
+      "Uh could be I don't know let's just use Q could be any question. So what we want our system to do is make a decision um if it needs to actually query our do we need FAQ. So our system needs to decide if it needs FAQ then it follows this route this way. If it doesn't need FAQ then it just answers gives the answer"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1042.799
+  },
+  {
+    "question": "What type of database is mentioned in the transcript?",
+    "answer": "FAQ.",
+    "contexts": [
+      "call it keyb knowledge database or FAQ right in our case FAQ. And then we get back some documents, right? So we get back uh uh I don't know like five documents, right? So it's document one, document five, right? And what we do is we put these documents uh it's actually we don't show them to the user we rather um put them to a prompt. So we have a"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 947.36
+  },
+  {
+    "question": "What can be done if the same question is sent to an LLM?",
+    "answer": "It can potentially provide an answer.",
+    "contexts": [
+      "do I patch uh what under freebsd? I mean we don't cover this. So it's a little off topic. Um but in this case if somebody had a question like that our assistant if we want our assistant to be able to answer questions like that questions that are not in our database um our assistant cannot do this. But if we just ask an LLM, if I send the same thing to an LLM,"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 824.24
+  },
+  {
+    "question": "What should the assistant use when answering questions?",
+    "answer": "The assistant should use only the facts from the context.",
+    "contexts": [
+      "Search, build, prompt, and lm. So now let's build the prompt. So this is our prompt. Let me just I'll keep the question here. So then I don't need to type it every time. And here is the prompt. So this is the same um function we saw previously in module number one. Um and this is the prompt. your course teaching assistant answer the question based on the context from the FAQ database. Use only the facts from the context when answering"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 605.36
+  },
+  {
+    "question": "Which module's function is being referenced?",
+    "answer": "Module number one.",
+    "contexts": [
+      "uh like markup in the templates. So this is what I'm using here in the template. Uh but otherwise it's the same function from module number one. Right? So this is our template. And now if we um use it question we already know right um search results uh search question and then we can build prompt"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 668.16
+  },
+  {
+    "question": "What do LLMs know about KD and FreeBSD?",
+    "answer": "LLMs usually know these kinds of things.",
+    "contexts": [
+      "uh then LLMs, they usually know these kind of things. So they know what is KD and what is FreeBSD. So they should be able to provide the answer cuz LLMs are quite knowledgeable. They already know many things. And if in our case if we want to build an assistant that is capable of answering generic questions and also use our database we need to use something different and this is where uh our"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 855.36
+  },
+  {
+    "question": "What is needed to build an assistant that answers generic questions and uses a database?",
+    "answer": "We need to use something different.",
+    "contexts": [
+      "uh then LLMs, they usually know these kind of things. So they know what is KD and what is FreeBSD. So they should be able to provide the answer cuz LLMs are quite knowledgeable. They already know many things. And if in our case if we want to build an assistant that is capable of answering generic questions and also use our database we need to use something different and this is where uh our"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 855.36
+  },
+  {
+    "question": "What type of environment is the robot designed to navigate?",
+    "answer": "Mars environment.",
+    "contexts": [
+      "want to build a robot that can navigate I don't know Mars environment, right? So then um the robot um this is not something we use LMS for. This is just general um a AI agents. So they use reinforce reinforcement learning for the agents to learn what kind of actions it perform and uh it uses some knowledge uh of what has happened uh to make the best"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1200.559
+  },
+  {
+    "question": "What is being used in the template?",
+    "answer": "Markup.",
+    "contexts": [
+      "uh like markup in the templates. So this is what I'm using here in the template. Uh but otherwise it's the same function from module number one. Right? So this is our template. And now if we um use it question we already know right um search results uh search question and then we can build prompt"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 668.16
+  },
+  {
+    "question": "What topic is mentioned as off-topic in the video?",
+    "answer": "Patching under FreeBSD.",
+    "contexts": [
+      "do I patch uh what under freebsd? I mean we don't cover this. So it's a little off topic. Um but in this case if somebody had a question like that our assistant if we want our assistant to be able to answer questions like that questions that are not in our database um our assistant cannot do this. But if we just ask an LLM, if I send the same thing to an LLM,"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 824.24
+  },
+  {
+    "question": "Which model is used in the function discussed in the video?",
+    "answer": "The GPT-4 mini model is used.",
+    "contexts": [
+      "build prompt question search results print prompt. So this is the prompt we're going to send to an LLM and then the LLM will give us the answer to this question using this context. Should be nothing new to you. So this is a classical example to rock of rock. So this is the function we're going to use. So we use open AI here. We use GPT4 mini model and"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 700.48
+  },
+  {
+    "question": "What does the search function implemented do?",
+    "answer": "It performs search within the data engineering course questions.",
+    "contexts": [
+      "uh can I still join the course then it gives us the documents where uh that match the this description uh or match this query right. So then um we have this search function that we implemented together um that only performs search within the data engineering course questions. Uh can I still join the course?"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 540.64
+  },
+  {
+    "question": "Am I eligible to submit homework if I don't register?",
+    "answer": "Yes, you're eligible to submit the homework even if you don't register.",
+    "contexts": [
+      "the answer that the LLM gives. Yes, you can still join the course after the start date. Even if you're don't don't register, you're eligible to submit the homework. And then we put everything together. So now we can test other things. How do I install half or how do I run in docker? And then we should get back the results. Right? So this is our rack."
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 763.36
+  },
+  {
+    "question": "What does the XML format clarify for the model?",
+    "answer": "It clarifies the beginning and end of the context and question.",
+    "contexts": [
+      "the question. One thing that changed since last year when I was recording the previous video was that now it seems everyone is um using XML kind of text in uh the templates which makes it clear for the model that here in this in this example that the context ends right. So here we have the beginning of the context and the end of the context. We have the beginning of the question, the end of the question. So it's more common to see these days this XML"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 636.399
+  },
+  {
+    "question": "Is there a mention of joining the course?",
+    "answer": "Yes, there is a question about joining the course.",
+    "contexts": [
+      "uh can I still join the course then it gives us the documents where uh that match the this description uh or match this query right. So then um we have this search function that we implemented together um that only performs search within the data engineering course questions. Uh can I still join the course?"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 540.64
+  },
+  {
+    "question": "What can an agent do in an environment?",
+    "answer": "An agent can observe the environment and perform some actions.",
+    "contexts": [
+      "environments. So let's say we have some environment where things can happen and then we have an agent here inside this environment. Let me use a different uh yeah. So this agent and there is some environment. So what agent can do is agent can observe the environment and perform some actions. So for example the environment"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 1138.96
+  },
+  {
+    "question": "Has the speaker tested the approach with other LLM providers?",
+    "answer": "No, the speaker has not tested it with other LLM providers.",
+    "contexts": [
+      "talk about uh advantages and disadvantages also downsides of rack and then how we can make this rack aentic and we will also talk about aentic search and we will also talk about function calling. So for this uh session I use openAI in principle it should work with any other LLM provider. I have not tested it with other LM LM providers but it should work with entropic. It should work with Gemini. It should also work with Grock. It should but I have not"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=GH3lrOsU3AU",
+    "start_time": 156.4
+  }
+]

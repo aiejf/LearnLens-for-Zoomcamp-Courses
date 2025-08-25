@@ -8,3 +8,9 @@ langchain
 chromadb 
 sentence-transformers
 langchain-community
+langchain-google-genai
+ragas
+datasets
+evaluate
+openpyxl
+streamlit
