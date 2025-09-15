@@ -26,7 +26,7 @@ vectorstore = Chroma(
     embedding_function=embedding_model,
 )
 
-retriever = vectorstore.as_retriever(search_kwargs={"k": 5})
+retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
 
 # -----------------------------
 # LLM Setup (Gemini)
